@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  color: #DBE4EE; /* changes the color of the text */
+}
+
+body {
+  background-color: #054A91; /* changes background color of website to blue*/
+}
+
+/* Changes font of header and footer elements and centers the text */
+header, footer{
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+/* Changes the font size of the h1 element and makes the bottom margin 0, making less space in between the h1 and p in the header */
+h1 {
+  font-size: 60px;
+  margin-bottom: 0px;
+}
+
+img {
+  border-radius: 50%; /* Turns the picture into a circle */
+  margin-top: 30px; /* Adds space above the image */
+  margin-bottom: 30px; /*Adds space below the image */
+}
+
+/* Changes the font of the main element, centers the main element, and makes the width 700 pixels */
+main {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 700px;
+  margin: auto;
+}
+
+h2 {
+  font-size: 30px; /* Chnages font size of all h2 elements */
+}
+
+section {
+  padding: 20px; /* Adds space inside each section element */
+}
+
+/* Changes the background color of the light-blue class and adds padding so the color fills the amount of space I wanted it to */
+.light-blue {
+  background-color: #3E7CB1;
+  padding: 10px;
+}
+
+/* Increases the height of the horizontal rules and fills them in with the background color */
+hr {
+  height: 5px;
+  background-color: #81A4CD;
+}
+
+a:link {
+  color: #81A4CD; /* Changes the color of anchor elements that haven't been visited to blue */
+}
+a:visited {
+  color: #F17300; /* Changes the color of anchor elements that have been visited to orange */
+}
+a:hover{
+  color: #F39A9D; /* Changes the color of anchor elements when the mouse is hovering over them to pink */
+}
+a:active{
+  color: #F05D5E; /* Changes the color of anchor elements that are being clicked to coral */
+}
